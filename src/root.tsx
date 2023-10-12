@@ -8,10 +8,10 @@ export default () => {
   const sliderSettings = {
     scrollSpeed: 5,
     gap: 50,
-    showScrollbar: false,
+    showScrollbar: true,
     autoScroll: true,
-    autoScrollSpeed: 5,
-    // width: "1500px",
+    autoScrollSpeed: 15,
+    width: "1500px",
   };
 
   return (
@@ -41,7 +41,7 @@ export default () => {
         </Slider>
         {/* </div> */}
 
-        {/*  */}
+        <h3>another slider with different settings</h3>
 
         {/* <div class="hh"> */}
         <Slider {...sliderSettings}>
