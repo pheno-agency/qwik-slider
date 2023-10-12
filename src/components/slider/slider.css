@@ -1,0 +1,21 @@
+/* .test {
+  overflow-x: auto; 
+} */
+
+.bg {
+  border: 1px solid red;
+  min-width: 100px;
+  height: 350px;
+  display: flex;
+}
+
+/* .hh {
+  width: 1500px;
+  border: 1px solid orange;
+  width: fit-content;
+} */
+
+/* .inner {
+  display: flex;
+  gap: 15;
+} */
