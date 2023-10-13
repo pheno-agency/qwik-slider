@@ -4,7 +4,7 @@
 
 .bg {
   border: 1px solid red;
-  min-width: 100px;
+  min-width: 500px;
   height: 350px;
   display: flex;
 }
