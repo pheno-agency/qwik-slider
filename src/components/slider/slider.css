@@ -7,6 +7,7 @@
   min-width: 500px;
   height: 350px;
   display: flex;
+  cursor: pointer;
 }
 
 /* .hh {

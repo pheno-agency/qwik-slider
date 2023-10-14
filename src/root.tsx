@@ -6,11 +6,11 @@ export default () => {
   // useStylesScopedQrl(styles);
 
   const sliderSettings = {
-    scrollSpeed: 5,
+    scrollSpeed: 1,
     gap: 50,
     showScrollbar: true,
     autoScroll: true,
-    autoScrollSpeed: 15,
+    autoScrollSpeed: 5,
     width: "1500px",
   };
 
@@ -53,7 +53,16 @@ export default () => {
           <div class="bg"></div>
         </Slider>
         {/* </div> */}
-        {/*  */}
+        <h3>slide</h3>
+
+        <Slider width="1400px">
+          <div class="bg"></div>
+          <div class="bg"></div>
+          <div class="bg"></div>
+          <div class="bg"></div>
+          <div class="bg"></div>
+          <div class="bg"></div>
+        </Slider>
       </body>
     </>
   );
