@@ -33,6 +33,7 @@ export const Slider = component$<SliderProps>(
       isDown: false,
       startX: 0,
       scrollLeft: 0,
+      isMouseOver: false,
     });
     const slider = useSignal<HTMLDivElement>();
 
@@ -44,6 +45,7 @@ export const Slider = component$<SliderProps>(
 
     const exit = $(() => {
       state.isDown = false;
+      state.isMouseOver = false; // when mouse leaves, auto scroll resumes
     });
 
     const onMouseMove = $((e: QwikMouseEvent) => {
@@ -53,8 +55,12 @@ export const Slider = component$<SliderProps>(
       slider.value!.scrollLeft = state.scrollLeft - walk;
     });
 
+    const handleMouseEnter = $(() => {
+      state.isMouseOver = true;
+    });
+
     useVisibleTask$(() => {
-      if (autoScroll) {
+      if (autoScroll && !state.isMouseOver) {
         const sliderElement = slider.value;
         if (sliderElement) {
           const maxScrollLeft =
@@ -62,20 +68,22 @@ export const Slider = component$<SliderProps>(
           let scrollDirection = 1;
 
           const interval = setInterval(() => {
-            if (scrollDirection === 1) {
-              if (sliderElement.scrollLeft >= maxScrollLeft) {
-                scrollDirection = -1;
+            if (!state.isMouseOver) {
+              if (scrollDirection === 1) {
+                if (sliderElement.scrollLeft >= maxScrollLeft) {
+                  scrollDirection = -1;
+                }
+              } else {
+                if (sliderElement.scrollLeft <= 0) {
+                  scrollDirection = 1;
+                }
               }
-            } else {
-              if (sliderElement.scrollLeft <= 0) {
-                scrollDirection = 1;
-              }
-            }
 
-            if (scrollDirection === 1) {
-              sliderElement.scrollLeft += 1;
-            } else {
-              sliderElement.scrollLeft -= 1;
+              if (scrollDirection === 1) {
+                sliderElement.scrollLeft += 1;
+              } else {
+                sliderElement.scrollLeft -= 1;
+              }
             }
           }, autoScrollSpeed);
 
@@ -98,6 +106,7 @@ export const Slider = component$<SliderProps>(
         onMouseLeave$={exit}
         onMouseUp$={exit}
         onMouseMove$={onMouseMove}
+        onMouseEnter$={handleMouseEnter}
       >
         <Slot />
       </div>
