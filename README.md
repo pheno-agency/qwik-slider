@@ -52,7 +52,7 @@ const sliderSettings = {
 
 
 <Slider {...sliderSettings}>
-  <Cards>
+  <Cards/>
 </Slider>
 
 ```
@@ -64,6 +64,8 @@ If you want your slider to pause when someone hovers their mouse over it, you're
 ## Looping
 
 By default, your slider content will loop back to the start when it reaches the end. It's like an endless cycle, so your users won't miss a thing.
+
+---
 
 And that's it! The Slider component is a great way to add a dynamic and interactive element to your website. Have fun customizing and making your web pages scroll-tastic!
 
