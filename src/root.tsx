@@ -55,7 +55,7 @@ export default () => {
         {/* </div> */}
         <h3>slide</h3>
 
-        <Slider width="1400px">
+        <Slider width="1400px" styleClass="test">
           <div class="bg"></div>
           <div class="bg"></div>
           <div class="bg"></div>

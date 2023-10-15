@@ -17,6 +17,7 @@ interface SliderProps {
   autoScroll?: boolean;
   autoScrollSpeed?: number;
   width?: string;
+  styleClass?: string;
 }
 
 export const Slider = component$<SliderProps>(
@@ -27,6 +28,7 @@ export const Slider = component$<SliderProps>(
     autoScroll = false,
     autoScrollSpeed = 15,
     width = "",
+    styleClass = "",
   }) => {
     useStyles$(styles);
     const state = useStore({
@@ -107,6 +109,7 @@ export const Slider = component$<SliderProps>(
         onMouseUp$={exit}
         onMouseMove$={onMouseMove}
         onMouseEnter$={handleMouseEnter}
+        class={`${styleClass}`}
       >
         <Slot />
       </div>

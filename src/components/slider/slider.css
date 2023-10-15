@@ -10,13 +10,21 @@
   cursor: pointer;
 }
 
-/* .hh {
-  width: 1500px;
-  border: 1px solid orange;
-  width: fit-content;
-} */
+.test::-webkit-scrollbar {
+  height: 8px;
+  left: -40px;
+}
 
-/* .inner {
-  display: flex;
-  gap: 15;
-} */
+.test::-webkit-scrollbar-track {
+  background: #fafafa;
+  border-radius: 1rem;
+}
+
+.test::-webkit-scrollbar-thumb {
+  background: #e6e6e6;
+  border-radius: 3px;
+}
+
+.test {
+  padding-bottom: 20px;
+}
