@@ -14,15 +14,14 @@ npm install qwik-slider
 
 Now that you're all set up, let's see how you can use the Slider component to add scrollable content to your website.
 
-```
-import { Slider } from 'qwik-slider';
+```ts
+import { Slider } from "qwik-slider";
 
 <Slider>
   <div class="card">Card 1</div>
   <div class="card">Card 2</div>
   <div class="card">Card 3</div>
-</Slider>
-
+</Slider>;
 ```
 
 You can pass in various options to customize the behavior of your slider. Here are some of the available options:
@@ -41,7 +40,7 @@ You can pass in various options to customize the behavior of your slider. Here a
 
 Feel free to style your slider by applying the CSS class name to the slider component. You can also pass in a `settings` object to configure your slider in one place:
 
-```
+```ts
 const sliderSettings = {
   scrollSpeed: 5,
   gap: 20,
@@ -50,11 +49,9 @@ const sliderSettings = {
   autoScrollSpeed: 10,
 };
 
-
 <Slider {...sliderSettings}>
-  <Cards/>
-</Slider>
-
+  <Cards />
+</Slider>;
 ```
 
 ## Pause on Hover
