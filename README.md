@@ -27,15 +27,15 @@ import { Slider } from 'qwik-slider';
 
 You can pass in various options to customize the behavior of your slider. Here are some of the available options:
 
-| Option          | Type/ Default value | Description                               |
-| --------------- | ------------------- | ----------------------------------------- |
-| scrollSpeed     | 1                   | Adjust the scroll speed                   |
-| gap             | 15 (px)             | Set the gap between items                 |
-| showScrollbar   | true                | Control the visibility of the scrollbar   |
-| autoScroll      | false               | Enable or disable auto-scrolling          |
-| autoScrollSpeed | 15                  | Adjust the speed of auto-scrolling        |
-| width           | ""                  | Adjust the width of the slider            |
-| styleClass      | ""                  | Styling the slider by providing the class |
+| Option          | Default value | Description                               |
+| --------------- | ------------- | ----------------------------------------- |
+| scrollSpeed     | 1             | Adjust the scroll speed                   |
+| gap             | 15 (px)       | Set the gap between items                 |
+| showScrollbar   | true          | Control the visibility of the scrollbar   |
+| autoScroll      | false         | Enable or disable auto-scrolling          |
+| autoScrollSpeed | 15            | Adjust the speed of auto-scrolling        |
+| width           | ""            | Adjust the width of the slider            |
+| styleClass      | ""            | Styling the slider by providing the class |
 
 ## Customization
 
