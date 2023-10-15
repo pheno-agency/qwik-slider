@@ -20,7 +20,7 @@ export default () => {
       <body>
         <h3>slide</h3>
 
-        {/* <Slider {...sliderSettings}>
+        <Slider {...sliderSettings}>
           <div class="bg">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
               <path
@@ -149,7 +149,7 @@ export default () => {
               />
             </svg>
           </div>
-        </Slider> */}
+        </Slider>
       </body>
     </>
   );
