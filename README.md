@@ -1,6 +1,6 @@
-# Slider Component
+# qwik-slider
 
-Hey there! 👋 Thanks for checking out the Slider component, a simple and customizable way to add horizontal scrolling to your web pages.
+Hey there! 👋 Thanks for checking out the qwik-slider, a simple and customizable way to add horizontal scrolling to your web pages.
 
 ## Installation
 
