@@ -65,18 +65,6 @@ If you want your slider to pause when someone hovers their mouse over it, you're
 
 By default, your slider content will loop back to the start when it reaches the end. It's like an endless cycle, so your users won't miss a thing.
 
-# Gifs
-
-![](https://github.com/pheno-agency/qwik-slider/blob/main/src/components/media/1.gif)
-
-![](https://github.com/pheno-agency/qwik-slider/blob/main/src/components/media/2.gif)
-
-![](https://github.com/pheno-agency/qwik-slider/blob/main/src/components/media/3.gif)
-
-![](https://github.com/pheno-agency/qwik-slider/blob/main/src/components/media/4.gif)
-
-<img src="https://github.com/pheno-agency/qwik-slider/blob/main/src/components/media/4.gif" width="1000">
-
 ---
 
 And that's it! The Slider component is a great way to add a dynamic and interactive element to your website. Have fun customizing and making your web pages scroll-tastic!
