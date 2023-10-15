@@ -67,13 +67,15 @@ By default, your slider content will loop back to the start when it reaches the 
 
 # Gifs
 
-![](https://github.com/pheno-agency/qwik-slider/blob/main/src/components/media/1.gif | width=1000)
+![](https://github.com/pheno-agency/qwik-slider/blob/main/src/components/media/1.gif)
 
-![](https://github.com/pheno-agency/qwik-slider/blob/main/src/components/media/2.gif | width=1000)
+![](https://github.com/pheno-agency/qwik-slider/blob/main/src/components/media/2.gif)
 
-![](https://github.com/pheno-agency/qwik-slider/blob/main/src/components/media/3.gif | width=1000)
+![](https://github.com/pheno-agency/qwik-slider/blob/main/src/components/media/3.gif)
 
-![](https://github.com/pheno-agency/qwik-slider/blob/main/src/components/media/4.gif | width=1000)
+![](https://github.com/pheno-agency/qwik-slider/blob/main/src/components/media/4.gif)
+
+<img src="https://github.com/pheno-agency/qwik-slider/blob/main/src/components/media/4.gif" width="1000">
 
 ---
 
