@@ -2,12 +2,23 @@
   overflow-x: auto; 
 } */
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .bg {
-  border: 1px solid red;
-  min-width: 500px;
-  height: 350px;
+  border: 1px solid #8c8c8c;
+  border-radius: 10px;
+  min-width: 250px;
+  height: 220px;
   display: flex;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .test::-webkit-scrollbar {
