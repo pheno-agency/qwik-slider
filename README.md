@@ -4,9 +4,9 @@ Hey there! 👋 Thanks for checking out the qwik-slider, a simple and customizab
 
 ## Installation
 
-To get started, you'll need to install package if you haven't already. You can do this with npm
+To get started, you'll need to install package if you haven't already. You can do this with npm.
 
-```
+```bash
 npm install qwik-slider
 ```
 
@@ -61,6 +61,10 @@ If you want your slider to pause when someone hovers their mouse over it, you're
 ## Looping
 
 By default, your slider content will loop back to the start when it reaches the end. It's like an endless cycle, so your users won't miss a thing.
+
+## Contributing
+
+We welcome contributions from the developer community to help improve and enhance this package.
 
 ---
 
