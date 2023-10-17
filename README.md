@@ -1,3 +1,5 @@
+[![Pheno Agency](/banner.svg)](https://pheno.agency)
+
 # qwik-slider
 
 Hey there! 👋 Thanks for checking out the qwik-slider, a simple and customizable way to add horizontal scrolling to your web pages.
