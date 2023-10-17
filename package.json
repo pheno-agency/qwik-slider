@@ -1,6 +1,6 @@
 {
   "name": "qwik-slider",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple and customizable slider for Qwik",
   "main": "./lib/index.qwik.mjs",
   "qwik": "./lib/index.qwik.mjs",

@@ -26,7 +26,7 @@ export const MyComponent = component$(() => {
       <div class="card">Card 1</div>
       <div class="card">Card 2</div>
       <div class="card">Card 3</div>
-    </Slider>;
+    </Slider>
   )
 }
 
@@ -62,7 +62,7 @@ export const MyComponent = component$(() => {
 return (
   <Slider {...sliderSettings}>
     <Cards /> // your cards go here
-  </Slider>;
+  </Slider>
 )
 };
 
