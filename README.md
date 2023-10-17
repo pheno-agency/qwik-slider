@@ -49,6 +49,8 @@ You can pass in various options to customize the behavior of your slider. Here a
 Feel free to style your slider by applying the CSS class name to the slider component. You can also pass in a `settings` object to configure your slider in one place:
 
 ```ts
+import { Slider } from "qwik-slider";
+
 export const MyComponent = component$(() => {
 
   const sliderSettings = {
