@@ -5,6 +5,17 @@
   "main": "./lib/index.qwik.mjs",
   "qwik": "./lib/index.qwik.mjs",
   "types": "./lib-types/index.d.ts",
+  "license": "MIT",
+  "keywords": [
+    "qwik",
+    "qwikdev",
+    "builder.io",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pheno-agency/qwik-slider"
+  },
   "exports": {
     ".": {
       "import": "./lib/index.qwik.mjs",
