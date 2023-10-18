@@ -61,7 +61,7 @@ export const Slider = component$<SliderProps>(
       state.isMouseOver = true;
     });
 
-    useVisibleTask$(() => {
+    useVisibleTask$(({ cleanup }) => {
       if (autoScroll && !state.isMouseOver) {
         const sliderElement = slider.value;
         if (sliderElement) {
@@ -89,7 +89,7 @@ export const Slider = component$<SliderProps>(
             }
           }, autoScrollSpeed);
 
-          return () => clearInterval(interval);
+          cleanup(() => clearInterval(interval));
         }
       }
     });
