@@ -1,6 +1,6 @@
 {
   "name": "qwik-slider",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A simple and customizable slider for Qwik",
   "main": "./lib/index.qwik.mjs",
   "qwik": "./lib/index.qwik.mjs",
@@ -10,7 +10,11 @@
     "qwik",
     "qwikdev",
     "builder.io",
-    "typescript"
+    "typescript",
+    "slider",
+    "qwik-slider",
+    "carousel",
+    "qwik-slide"
   ],
   "repository": {
     "type": "git",

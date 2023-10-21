@@ -4,11 +4,9 @@ import {
   component$,
   useSignal,
   useStore,
-  useStyles$,
   useVisibleTask$,
 } from "@builder.io/qwik";
 import type { QwikMouseEvent } from "@builder.io/qwik";
-import styles from "./slider.css?inline";
 
 interface SliderProps {
   scrollSpeed?: number;
@@ -30,7 +28,6 @@ export const Slider = component$<SliderProps>(
     width = "",
     styleClass = "",
   }) => {
-    useStyles$(styles);
     const state = useStore({
       isDown: false,
       startX: 0,

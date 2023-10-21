@@ -2,14 +2,14 @@
   overflow-x: auto; 
 } */
 
-body {
+/* body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
-.bg {
+/* .bg {
   border: 1px solid #8c8c8c;
   border-radius: 10px;
   min-width: 250px;
@@ -38,4 +38,4 @@ body {
 
 .test {
   padding-bottom: 20px;
-}
+} */
